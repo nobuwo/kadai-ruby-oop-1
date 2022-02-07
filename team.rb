@@ -14,8 +14,7 @@ class Team
   end
   
   def show_team_result()
-    win_rate = calc_win_rate()
-    puts "#{self.name}の2020年の成績は#{self.win}勝#{self.lose}敗#{self.draw}分、勝率は#{win_rate}です。"
+    puts "#{self.name}の2020年の成績は#{self.win}勝#{self.lose}敗#{self.draw}分、勝率は#{self.calc_win_rate}です。"
   end
 end
 
